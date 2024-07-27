@@ -1,0 +1,348 @@
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(92, 60, 12)
+  }
+  
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border:none;
+    background: #6AFFD9;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+  }
+  
+.btn0:hover{
+    background: #21C2A6;
+}
+
+.navbar-brand{
+    font-size: 45px;
+    color: #CEFFF8;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand:hover{
+    color: #CEFFF8;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #CEFFF8;
+    font-family: 'Cardo', bold;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: #00C9AD;
+}
+  
+.navbar .navbar-nav .nav-link.active {
+	color: #00C9AD;
+}
+
+.testimonials{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+	background-image: url("Logo and backgrounds/bg4.jfif");
+}
+.testimonials h1{
+    text-align:  center;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.testimonials h1::after{
+    content: '';
+    background: #FFD700;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.testimonials .row{
+    margin-top: 30px;
+}
+.testimonials p{
+    color: #red;
+}
+.col-md-4
+{
+    margin: 40px auto;
+}
+.profile{
+    padding: 10px 10px 10px;
+    background-color: #efefef;
+}
+.profile img{
+    position: static;
+    border: 10px solid white;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(22, 139, 67);
+}
+span{
+    font-size: 12px;
+    color: #333;
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before
+{
+    content: '\201c';
+    font-size: 50px;
+    position: relative;
+    color: brown;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after
+{
+    content: '\201c';
+    font-size: 50px;
+    position: relative;
+    color: brown;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+        
+.profile:hover
+{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main{
+    background-image: url("Logo and backgrounds/background.jpg");
+    background-size: fit;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+	color: white;
+	font-family: 'Cardo', bold;
+}
+
+ .btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #6AFFD9;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}  
+
+.btn1:hover{
+    background-color: #21C2A6;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: -2px -2px 25px -5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -2px -2px 25px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px -2px 25px -5px rgba(0,0,0,0.75);
+	transition: 0.5s;
+  }
+  
+.contact {
+	background: black;
+	background-size: cover;
+	padding: 100px 40px;
+	text-align: center;
+	color: white;
+}
+.contact p {
+  max-width: 600px;
+  margin: 40px auto;
+  font-size: 15px;
+  font-weight: 300;
+}
+.email-box{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.email-box i{
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox, .btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 260px;
+  padding: 0 10px;
+}
+.btn{
+  background: #4BB298;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.carousel-caption{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+    font-weight: 700;
+}
+  
+footer{
+  background: #f1f1f1;
+  padding: 90px 0;
+}
+.footer-container{
+  max-width: 1300;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+.logo{
+  width: 180px;
+}
+.social-media{
+  margin: 20px 0;
+}
+.social-media a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+.social-media a:hover{
+  color: #fc5c65;
+}
+.right-col h1{
+  font-size: 26px;
+}
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+.btn2{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #fff;
+  background: #4BB298;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: .3 linear;
+}
+.btn2:hover{
+  opacity: .7;
+}
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: 600;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .btn2{
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+
+.hold{
+	float:center
+	width:80%;
+	background-size:100% 20%;
+	background-position:center;
+	padding:20px;
+	margin:auto;
+	color:#00853B;
+}
+	  
+.sec2{
+	float:center
+	width:80%;
+	background-image:url("./Logo and backgrounds/bg5.jpg");
+	background-repeat:no-repeat;
+	background-size:80% 100%;
+	background-position:center;
+	padding:200px;
+	margin:auto;
+}
